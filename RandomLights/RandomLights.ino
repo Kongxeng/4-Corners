@@ -16,9 +16,9 @@ void setup()
 void loop()
 {
   randon = random (500, 1200);
-  randoff = random (300, 900);
+  randoff = random (100, 500);
   
-  RANDOM = random(2, 10);
+  RANDOM = random(2, 9);
 
   digitalWrite(LED[RANDOM], HIGH);
   delay(randon);
